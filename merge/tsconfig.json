@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "allowJs": true,                       
+    "declaration": true,                   
+    "declarationMap": true,                  
+    "strict": true,                           
+    "esModuleInterop": true,             
+    "moduleResolution": "node",           
+    "baseUrl": "./",                      
+    "paths": {
+      "@merge/*": ["packages/*/src"],
+    },       
+    "outDir": "./out",
+  },
+  "exclude": [
+    "node_modules",
+    "**/dist/**",
+    "rollup.config.js",
+    "out"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@merge/plugin",
+  "version": "0.0.0",
+  "description": "",
+  "author": "zxc122333",
+  "homepage": "",
+  "license": "MIT",
+  "main": "dist/plugin.js",
+  "types": "dist/plugin.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@merge/core": "*"
+  }
+}

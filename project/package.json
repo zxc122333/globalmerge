@@ -1,0 +1,8 @@
+{
+  "name": "project2",
+  "version": "0.0.0",
+  "bundledDependencies": [
+    "@merge/core",
+    "@merge/plugin"
+  ]
+}
